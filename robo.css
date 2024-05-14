@@ -1,0 +1,181 @@
+.corpo{
+    width: 180px;
+    height: 300px;
+    background-color: rgb(20, 196, 166);
+    border: 5px solid black;
+    border-radius: 5%;
+    margin-left: 170px;
+    margin-top: 150px;
+}
+
+.rosto{
+    width: 140px;
+    height: 125px;
+    background-color: rgb(155, 236, 230);
+    border: 1px solid black;
+    border-radius: 1.5%;
+    margin-left: 194px;
+    margin-top: -285px;
+}
+
+.olho1{
+    width: 8px;
+    height: 17px;
+    margin: 20px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 230px;
+    margin-top: -94px;
+}
+
+.olho2{
+    width: 8px;
+    height: 17px;
+    margin: 20px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 290px;
+    margin-top: -37.5px;
+}
+
+.boca{
+    width: 12px;
+    height: 18px;
+    margin: 20px;
+    background-color: black;
+    border-radius: 50%;
+    margin-left: 259px;
+    margin-top: -10px;
+}
+
+.covinha1{
+    width: 14px;
+    height: 8px;
+    margin: 20px;
+    background-color: rgb(14, 201, 201);
+    border-radius: 50%;
+    margin-left: 225px;
+    margin-top: -40px;
+}
+
+.covinha2{
+    width: 14px;
+    height: 8px;
+    margin: 20px;
+    background-color: rgb(14, 201, 201);
+    border-radius: 50%;
+    margin-left: 289px;
+    margin-top: -28px;
+}
+
+.USB1{
+    width: 15px;
+    height: 3.5px;
+    border: 2px solid #000000;
+    margin-left: 194px;
+    margin-top: 116px;
+}
+
+.USB2{
+    width: 15px;
+    height: 2px;
+    background-color: rgb(239, 239, 239);
+    margin-left: 196px;
+    margin-top: -4px;
+}
+
+.USB3{
+    width: 15px;
+    height: 2px;
+    background-color: rgb(66, 66, 66);
+    margin-left: 196px;
+    margin-top: -3.5px;
+}
+
+.USB4{
+    width: 15px;
+    height: 3.5px;
+    border: 2px solid black;
+    margin-left: 220px;
+    margin-top: -3.7px;
+}
+
+.USB5{
+    width: 15px;
+    height: 1.5px;
+    background-color: rgb(69, 69, 69);
+    margin-left: 222px;
+    margin-top: -5.45px;
+}
+
+.USB6{
+    width: 15px;
+    height: 1.5px;
+    background-color: rgb(239, 239, 239);
+    margin-left: 222px;
+    margin-top: 0.5px;
+}
+
+.DVD{
+    width: 100px;
+    height: 10px;
+    background-color: rgb(31, 57, 49);
+    border-radius: 1.5px;
+    margin-left: 194px;
+    margin-top: -77px;
+}
+
+.botaoA1{
+    width: 38px;
+    height: 13px;
+    background-color: yellow;
+    margin-left: 197px;
+    margin-top: 110px;
+}
+
+.botaoA2{
+    width: 13px;
+    height: 38px;
+    background-color: yellow;
+    border-color: black;
+    margin-left: 210px;
+    margin-top: -26px;
+}
+
+.botaoB1{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    border-radius: 50%;
+    margin-left: 280px;
+    margin-top: 30px;
+}
+
+.botaoB2{
+    width: 17px;
+    height: 17px;
+    background-color: green;
+    border-radius: 50%;
+    margin-left: 315px;
+    margin-top: -55px;
+}
+
+.botaoT{
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 17px solid blue;
+    border-radius: 1px;
+    margin-left: 278px;
+    margin-top: -30px;
+}
+
+.fone{
+    width: 10px;
+    height: 10px;
+    background-color: rgb(51, 51, 51);
+    border-radius: 50%;
+    margin-left: 320px;
+    margin-top: -10px;
+}

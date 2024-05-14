@@ -1,0 +1,188 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+    font-family: Arial;
+}
+
+body{
+    margin-bottom: 25px;
+    margin-left: 0px;
+    width: 100vw;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.l-main{
+    width: 968px;
+    margin: auto;
+    padding-top: 14px;
+}
+
+.l-header{
+    display: flex;
+    justify-content: space-around
+}
+
+.logo > h3{
+    font-family: 'Parisienne', cursive;
+    font-size: 1.4em;
+    font-weight: bold;
+    width: 150px;
+    margin-left: 40px;
+}
+
+.l-menu{
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    flex-wrap: wrap;
+}
+
+.l-menu-item{
+    list-style: none;
+    transition: 0.1s ease-in-out;
+    cursor: pointer;
+}
+
+.l-menu-item:hover{
+    border-bottom: 3px solid #002f49; 
+}
+  
+.parallax{
+    background: url(https://static.independent.co.uk/s3fs-public/thumbnails/image/2016/03/21/13/breakfast-istock.jpg?w968h681) fixed no-repeat center center;
+    min-height: 400px; 
+    background-size: cover;
+}
+  
+.l-parallax-content{
+    margin: auto;
+    width: 968px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner{
+    font-family: 'Great Vibes', cursive;
+    font-size: 50px;
+    color: #fff;
+    text-shadow: 0px 1px 21px rgba(0, 0, 0, 1);
+    z-index: 1;
+}
+
+.subtitle{
+    color: #fff;
+    text-shadow: 0px 1px 21px rgba(0, 0, 0, 1);
+    z-index: 1;
+}
+
+.l-content-one{
+    width: 968px;
+    margin: auto;
+    height: 500px;
+}
+
+.l-image-detail{
+    position: relative;
+    width: 20%;
+    text-align: center;
+    padding: 4px;
+    margin-top: 40px;
+}
+
+.image{
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.image-title{
+    margin-bottom: 14px;
+}
+
+.overlay-image{
+    position: absolute;
+    top: 44.2px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 400px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.overlay{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 47, 73, 0.9);
+}
+
+.l-image-detail:hover .overlay{
+    opacity: 1;
+}
+
+.text{
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.title-section{
+    padding: 30px 0 0 0;
+    margin: 0px;
+    text-align: center;
+    width: 100%;
+}
+
+.l-service-section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.parallax-2{
+    background: #002F49 url(https://recowell.com/assets/images/business-landing/connected-tablet-people.png);
+    background-size: contain;
+}
+
+body::-webkit-scrollbar{
+    width: 2px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #002f49;
+}
+
+body::-webkit-scrollbar-track{
+    -webkit-box-shadow: inset 0 0 6px rgba(214, 100, 199, 0.3);
+}
+
+.commits{
+    display: flex;
+    justify-content: flex-end;
+    width: 968px;
+    padding: 0px;
+}
+
+.commit{
+    background: #fff;
+    width: 260px;
+    padding: 16px;
+    height: 330px;
+    box-shadow: 1px 1px 30px 1px gba(0,0, 0,1);
+}
